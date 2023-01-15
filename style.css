@@ -299,6 +299,16 @@ margin-right: 300px;
     margin: 100px 180px;
     text-align: center;
  }
+ @media screen and (max-width: 576px) {
+    .body {
+        margin:0 0 0 0;
+    }
+    .container, .features, .classifications, .list-category, .logo {
+       flex-direction: column;
 
-
-
+       }
+       .img {
+        grid-template-columns: repeat(1, 1fr);
+       }
+ }
+ 
